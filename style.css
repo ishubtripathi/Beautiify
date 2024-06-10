@@ -169,6 +169,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-image: url(./assets/images/bg1.png);
+    background-color: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
     background-repeat: no repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -840,7 +841,7 @@ footer p a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5.3rem;
+        top: 9.3rem;
         flex-direction: column;
         background-color: rgba(5, 5, 5, 0.904);
         backdrop-filter: blur(6.5px);
